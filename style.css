@@ -89,10 +89,26 @@ div#inizioarticolo {
    
 }
 
+div#inizioarticolo2 {
+   font-size:20px;
+   
+}
+
 div#articolo {
    float:right;
-   margin-left:40px;
-	margin-right:40px;
+   margin-left:100px;
+	margin-right:80px;
+
+   margin-bottom:40px;
+   margin-top:50px;
+   
+
+}
+
+div#articolo2 {
+   float:right;
+   margin-left:90px;
+	margin-right:60px;
 
    margin-bottom:40px;
    margin-top:50px;
@@ -196,24 +212,7 @@ div#tabprices {
 	
 	
 
-#tabella{
-	background-color:#E6E6FA;
-	border-collapse: collapse;
-	
-}
 
-#tabellauno {
-   background-color:#E0FFFF;
-   border-collapse: collapse;}
-
-
-#tabelladue {
-   background-color:#FDF5E6;
-   border-collapse: collapse;}
-
-#tabellatre {
-   background-color:#F5F5F5;
-   border-collapse: collapse;}
 
 
 
