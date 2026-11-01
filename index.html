@@ -1,49 +1,100 @@
+
 <!DOCTYPE html>
-<html>
-
+<html lang="en">
 <head>
-    <title>Immaginai</title>
     <meta charset="UTF-8">
-    <meta name="description" content="">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Immaginai - Create AI images from text">
+    <meta name="theme-color" content="#ffffff">
+    <title>Immaginai</title>
 
-    <meta name="keywords" content="HTML,CSS,XML,JAVASCRIPT">
-    <meta name="author" content="emavisuals">
-    <link rel="stylesheet" type="text/css" href="style.css"/>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            min-height: 100vh;
+            min-height: 100dvh;
+            display: flex;
+            flex-direction: column;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont,
+                         "Segoe UI", sans-serif;
+            background: #fff;
+            color: #171717;
+        }
+
+        main {
+            flex: 1;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 32px 20px;
+        }
+
+        .app {
+            text-align: center;
+        }
+
+        .app img {
+            display: block;
+            width: 160px;
+            max-width: 100%;
+            height: auto;
+            margin: 0 auto 28px;
+            border-radius: 20px;
+        }
+
+        h1 {
+            margin: 0 0 10px;
+            font-size: 2rem;
+            font-weight: 600;
+            letter-spacing: -0.04em;
+        }
+
+        .app p {
+            margin: 0;
+            font-size: 1rem;
+            line-height: 1.6;
+            color: #737373;
+        }
+
+        footer {
+            padding: 24px;
+            text-align: center;
+            font-size: 0.85rem;
+        }
+
+        footer a {
+            color: #888;
+            text-decoration: none;
+            transition: color 0.2s;
+        }
+
+        footer a:hover {
+            color: #171717;
+        }
+    </style>
 </head>
 
 <body>
-    <div id="container">
+    <main>
+        <section class="app" aria-labelledby="app-title">
+            <img
+                src="images/nrelogosshadow.jpg"
+                alt="Immaginai app icon"
+                width="160"
+                height="160"
+            >
 
-        <header>
-            <div id="inizio">
-                <br>
-                <br>
-                <h3> </h3>
-            </div>
-        </header>
+            <h1 id="app-title">Immaginai</h1>
+            <p>Create any AI image from text.</p>
+        </section>
+    </main>
 
-        <div id="articolo2">
-            <article>
-
-                <div id="inizioarticolo2">
-                    <h3> Immaginai </h3>
-                    <p>  </p>
-                </div>
-
-                <img src="images/nrelogosshadow.jpg" title="Immaginai Icon" width="200" height="auto" />
-
-                <h3> Create any AI image from text </h3>
-
-                <br>
-                <br>
-                <br>
-
-            </article>
-        </div>
-
-    </div>
+    <footer>
+        <a href="mailto:info@info.com">info@latentlake.com</a>
+    </footer>
 </body>
-
 </html>
